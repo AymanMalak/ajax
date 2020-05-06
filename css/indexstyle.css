@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#data{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#data > div{
+    width: 32%;
+    margin: 5px 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+}
+#paging{
+    text-align: center;
+    margin: 30px 0;
+}
+#paging a{
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: #eee;
+    text-decoration: none;
+}
+#paging a.active{
+    background-color: orange;
+    color: #fff;
+}
